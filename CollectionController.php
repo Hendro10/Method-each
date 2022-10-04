@@ -47,7 +47,7 @@ class CollectionController extends Controller
 
     public function collectionEmpat()
     {
-        //  untuk mencari sebuah nilai di dalam collection, kemudian mengembalikan index dari nilai tersebut
+        //  cara penulisan lain dari perulangan foreach.
 
         $collection = collect([
             "nama" => "Hendro Gunawan",
